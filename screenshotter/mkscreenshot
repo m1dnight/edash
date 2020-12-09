@@ -1,0 +1,16 @@
+/usr/lib/chromium/chrome-bin           \
+    --window-size=640,384              \
+    --headless --no-sandbox            \
+    --disable-background-networking    \
+    --disable-default-apps             \
+    --disable-extensions               \
+    --disable-sync                     \
+    --disable-gpu                      \
+    --disable-translate                \
+    --mute-audio                       \
+    --hide-scrollbars                  \
+    --metrics-recording-only           \
+    --no-first-run                     \
+    --safebrowsing-disable-auto-update \
+    --screenshot                       \
+    "$@"
